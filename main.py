@@ -5,5 +5,3 @@ def twoSum(nums: List[int], target: int) -> List[int]:
             if ((nums[i]+nums[j])==target):
                 list=[nums[i],nums[j]]
                 return list
-
-print(twoSum([2,7,11,15], 9))
